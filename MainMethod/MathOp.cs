@@ -15,14 +15,14 @@ namespace MainMethod
             return num1 + num2;
         }
 
-        public decimal DecSum(decimal i, int i2)
+        public decimal Sum(decimal i, int i2)
         {
             decimal num1 = i;
             int num2 = i2;
             return num1 - num2;
         }
 
-        public int StrSum(string i, int i2)
+        public int Sum(string i, int i2)
         {
             string str1 = i;
             int parse = Int32.Parse(str1);
